@@ -1,28 +1,82 @@
 [
   {
-    "id": 1,
     "name": "Grand Hotel",
     "address": "123 Park Avenue, New York, NY 10022",
-    "location": "New York",
+    "description": "A luxurious 5-star hotel in the heart of Manhattan with stunning views of Central Park.",
+    "imageUrl": "https://www.hotelboulevard.co.ke/wp-content/uploads/elementor/thumbs/4-4-qomponk1m07bq7q0ttiefadccdrlf3y84j4ka23574.png",
     "price": 200,
-    "rating": 4.5,
-    "image": "https://www.hotelboulevard.co.ke/wp-content/uploads/elementor/thumbs/4-4-qomponk1m07bq7q0ttiefadccdrlf3y84j4ka23574.png",
-    "rooms": 120,
-    "reviews": 215,
-    "description": "A luxurious 5-star hotel in the heart of Manhattan, offering stunning views of Central Park and world-class amenities.",
-    "amenities": ["Free WiFi", "Swimming Pool", "Spa", "Fitness Center", "Restaurant"]
+    "rooms": [
+      {
+        "imageUrl": "https://example.com/room1.jpg",
+        "name": "Deluxe King Room"
+      },
+      {
+        "imageUrl": "https://example.com/room2.jpg",
+        "name": "Executive Suite"
+      }
+    ],
+    "reviews": [
+      {
+        "message": "Excellent service and beautiful rooms!",
+        "user": "John Doe",
+        "userImage": "https://example.com/user1.jpg",
+        "rate": 5
+      },
+      {
+        "message": "Great location but the wifi was slow.",
+        "user": "Jane Smith",
+        "userImage": "https://example.com/user2.jpg",
+        "rate": 4
+      }
+    ],
+    "amenities": [
+      {
+        "name": "Free WiFi",
+        "imageUrl": "https://example.com/wifi-icon.png"
+      },
+      {
+        "name": "Swimming Pool",
+        "imageUrl": "https://example.com/pool-icon.png"
+      },
+      {
+        "name": "Spa",
+        "imageUrl": "https://example.com/spa-icon.png"
+      }
+    ]
   },
   {
-    "id": 2,
     "name": "Beach Resort",
     "address": "456 Ocean Drive, Miami Beach, FL 33139",
-    "location": "Miami",
+    "description": "A tropical paradise with private beach access and infinity pools.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuNAQpFwjm2NLVejnv8emlrlKTvQHbvaQdiA&s",
     "price": 350,
-    "rating": 4.8,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuNAQpFwjm2NLVejnv8emlrlKTvQHbvaQdiA&s",
-    "rooms": 80,
-    "reviews": 180,
-    "description": "A tropical paradise with private beach access, infinity pools, and vibrant nightlife just steps away.",
-    "amenities": ["Beachfront", "Free Breakfast", "Bar", "Water Sports", "Kids Club"]
+    "rooms": [
+      {
+        "imageUrl": "https://example.com/room3.jpg",
+        "name": "Ocean View Room"
+      },
+      {
+        "imageUrl": "https://example.com/room4.jpg",
+        "name": "Beachfront Villa"
+      }
+    ],
+    "reviews": [
+      {
+        "message": "Perfect for a romantic getaway!",
+        "user": "Alex Johnson",
+        "userImage": "https://example.com/user3.jpg",
+        "rate": 5
+      }
+    ],
+    "amenities": [
+      {
+        "name": "Private Beach",
+        "imageUrl": "https://example.com/beach-icon.png"
+      },
+      {
+        "name": "Restaurant",
+        "imageUrl": "https://example.com/restaurant-icon.png"
+      }
+    ]
   }
 ]
