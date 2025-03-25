@@ -1,18 +1,28 @@
 [
-    {
-      "id": 1,
-      "name": "Grand Hotel",
-      "location": "New York",
-      "price": 200,
-      "rating": 4.5,
-      "image": "https://www.hotelboulevard.co.ke/wp-content/uploads/elementor/thumbs/4-4-qomponk1m07bq7q0ttiefadccdrlf3y84j4ka23574.png"
-    },
-    {
-      "id": 2,
-      "name": "Beach Resort",
-      "location": "Miami",
-      "price": 350,
-      "rating": 4.8,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuNAQpFwjm2NLVejnv8emlrlKTvQHbvaQdiA&s"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Grand Hotel",
+    "address": "123 Park Avenue, New York, NY 10022",
+    "location": "New York",
+    "price": 200,
+    "rating": 4.5,
+    "image": "https://www.hotelboulevard.co.ke/wp-content/uploads/elementor/thumbs/4-4-qomponk1m07bq7q0ttiefadccdrlf3y84j4ka23574.png",
+    "rooms": 120,
+    "reviews": 215,
+    "description": "A luxurious 5-star hotel in the heart of Manhattan, offering stunning views of Central Park and world-class amenities.",
+    "amenities": ["Free WiFi", "Swimming Pool", "Spa", "Fitness Center", "Restaurant"]
+  },
+  {
+    "id": 2,
+    "name": "Beach Resort",
+    "address": "456 Ocean Drive, Miami Beach, FL 33139",
+    "location": "Miami",
+    "price": 350,
+    "rating": 4.8,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuNAQpFwjm2NLVejnv8emlrlKTvQHbvaQdiA&s",
+    "rooms": 80,
+    "reviews": 180,
+    "description": "A tropical paradise with private beach access, infinity pools, and vibrant nightlife just steps away.",
+    "amenities": ["Beachfront", "Free Breakfast", "Bar", "Water Sports", "Kids Club"]
+  }
+]
